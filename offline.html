@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>PWAnimals</title>
+        <link rel="stylesheet" href="style.css" />
+      <!--changed these links to work on glitch -->
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="https://cdn.glitch.com/a1587639-fd68-4bb7-a8ac-08ca51112bed%2Fapple-touch-icon.png?1548953486326" 
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="https://cdn.glitch.com/a1587639-fd68-4bb7-a8ac-08ca51112bed%2Ffavicon-32x32.png?1548953504546"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="https://cdn.glitch.com/a1587639-fd68-4bb7-a8ac-08ca51112bed%2Ffavicon-16x16.png?1548953497211"
+        />
+        <link rel="manifest" href="manifest.json" />
+        <meta name="msapplication-TileColor" content="#da532c" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1"
+        />
+        <script src="index.js"></script>
+      <script>
+        if (location.protocol != "https:") {
+          location.href = "https:" + window.location.href.substring(window.location.protocol.length)
+        }
+      </script>
+    </head>
+    <body>
+        <div class="container" id="header-container">
+            <h1>
+                PWAnimals: the cutest Progressive Web App 🙈🙉🙊
+            </h1>
+<!--               <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+              <script src="https://button.glitch.me/button.js"></script> -->
+        </div>
+        <div class="container" id="content-container">
+            <div class="container" id="img-container">
+
+                <img
+                    src="https://cdn.glitch.com/a1587639-fd68-4bb7-a8ac-08ca51112bed%2Foffline.jpeg?1548977019123"
+                    alt="A random image of an animal!"
+                    id="offline-animal-image"
+                />
+                <h3 id="caption">Wahoo! A random animal!</h3>
+                <button class="button" disabled>
+                  You're offline 😪 Reconnect for more adorable animal pics!
+                </button>
+            </div>
+        </div>
+<!--       <script>
+        let animg = document.getElementById("animal-image");
+        let spin = document.getElementsByClassName("spinner")[0];
+        const x = () => {
+          animg.style.display = "block";
+          spin.style.display = "none";
+        }
+        animg.onload = x;
+      </script> -->
+    </body>
+</html>
