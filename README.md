@@ -12,4 +12,4 @@ Blog post coming soon!
 ## Credits 🐅
 
 - Animal pics come from [placeimg.com](https://placeimg.com/). 
-- The loading spinner comes from [this neat site].(http://tobiasahlin.com/spinkit/)
+- The loading spinner comes from [this neat site](http://tobiasahlin.com/spinkit/).
